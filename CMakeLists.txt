@@ -18,7 +18,7 @@ add_executable(${APP_TARGET}
     main.cpp
 )
 
-target_link_libraries(${APP_TARGET} mbed-os)
+target_link_libraries(${APP_TARGET} mbed-os mbed-stm32f401xe mbed-round-display mbed-core mbed-rtos mbed-events mbed-usb)
 
 mbed_set_post_build(${APP_TARGET})
 

@@ -1,11 +1,11 @@
-add_library(mbed-remote-stick INTERFACE)
+add_library(mbed-round-display INTERFACE)
 
-target_include_directories(mbed-remote-stick
+target_include_directories(mbed-round-display
     INTERFACE
         .
 )
 
-target_sources(mbed-remote-stick
+target_sources(mbed-round-display
     	INTERFACE
 	PeripheralPins.c
 )

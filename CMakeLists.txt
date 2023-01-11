@@ -12,6 +12,7 @@ include(${MBED_PATH}/tools/cmake/app.cmake)
 project(${APP_TARGET})
 
 add_subdirectory(${MBED_PATH})
+add_subdirectory(TARGET_F401)
 
 add_executable(${APP_TARGET}
     main.cpp

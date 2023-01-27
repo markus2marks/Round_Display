@@ -8,4 +8,5 @@ target_include_directories(mbed-round-display
 target_sources(mbed-round-display
     	INTERFACE
 	PeripheralPins.c
+	system_clock.c
 )

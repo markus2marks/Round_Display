@@ -4,10 +4,15 @@
  */
 
 #include "mbed.h"
+#include "ST7701s.h"
 
+SPI spi(PA_7, PB_4, PA_5);
+
+ST7701s display(&spi, PA_4);
 
 int main()
 {
-    printf("Hello, Mbed!\n");
+    display.initDisplay();
+    while(1);
     return 0;
 }
